@@ -48,5 +48,12 @@ public class App {
         System.out.println("--------------------");
         System.out.println("The sum of 10 and 20 is " + App.computeSum(10, 20));
         System.out.println("The sum of 10 and 20 and 30 is " + App.computeSum(10, 20, 30));
+
+        /**
+         * Invoke Pen Class, with Overloaded Constructors
+         */
+        Pen p1 = new Pen();
+        Pen p2 = new Pen("G-Tech Pilot");
+        Pen p3 = new Pen(10);
     }
 }
